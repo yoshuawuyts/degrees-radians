@@ -17,9 +17,12 @@ radians(90);
 // => 1.5707963267948966
 ```
 
+## See Also
+- [radians-degrees](https://github.com/arthurvr/radians-degrees) - Convert
+  radians to degrees
+
 ## License
-[MIT](https://tldrlegal.com/license/mit-license) ©
-[Yoshua Wuyts](yoshuawuyts.com)
+[MIT](https://tldrlegal.com/license/mit-license)
 
 [npm-image]: https://img.shields.io/npm/v/degrees-radians.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/degrees-radians
