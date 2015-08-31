@@ -17,6 +17,9 @@ radians(90);
 // => 1.5707963267948966
 ```
 
+## Related
+Use the [radians-degrees](https://github.com/arthurvr/radians-degrees) module to do the inverse.
+
 ## License
 [MIT](https://tldrlegal.com/license/mit-license) ©
 [Yoshua Wuyts](yoshuawuyts.com)
