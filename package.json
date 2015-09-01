@@ -1,6 +1,6 @@
 {
   "name": "degrees-radians",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert degrees to radians",
   "main": "index.js",
   "scripts": {
