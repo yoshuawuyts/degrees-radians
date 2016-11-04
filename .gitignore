@@ -28,6 +28,11 @@ node_modules/
 npm-debug.log
 
 #
+# Ide folders.
+#
+.idea/
+
+#
 # OS X.
 #
 
