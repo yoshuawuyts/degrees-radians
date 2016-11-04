@@ -1,17 +1,9 @@
-/**
- * Module dependencies.
- */
+module.exports = function (degrees) {
+    "use strict";
 
-var assert = require('assert');
+    if (typeof degrees !== 'number') {
+        throw new TypeError('Degrees should be a number');
+    }
 
-/**
- * Convert degrees to radians.
- *
- * @param {Number} degrees
- * @return {Number}
- */
-
-module.exports = function(degrees) {
-  assert('number' == typeof degrees, 'Degrees should be a number');
-  return degrees * (Math.PI / 180);
-}
+    return degrees * (Math.PI / 180);
+};

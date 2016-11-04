@@ -1,18 +1,18 @@
 {
-  "name": "degrees-radians",
-  "version": "1.0.3",
+  "name": "@yavuzmester/degrees-radians",
+  "version": "1.0.4",
   "description": "Convert degrees to radians",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --recursive --harmony-generators -R spec",
+    "test": "mocha",
     "coverage": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report text --recursive -- -R spec && rm -rf ./coverage/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yoshuawuyts/degrees-radians"
+    "url": "https://github.com/yavuzmester/degrees-radians"
   },
   "keywords": [],
-  "author": "Yoshua Wuyts <i@yoshuawuyts.com>",
+  "author": "Yavuz Mester",
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^2.10.0",
